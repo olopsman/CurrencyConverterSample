@@ -11,6 +11,7 @@
 		BEC29A7E29EA4FD90002C3C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC29A7D29EA4FD90002C3C0 /* ContentView.swift */; };
 		BEC29A8029EA4FDB0002C3C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC29A7F29EA4FDB0002C3C0 /* Assets.xcassets */; };
 		BEC29A8329EA4FDB0002C3C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC29A8229EA4FDB0002C3C0 /* Preview Assets.xcassets */; };
+		BEC29A8A29EA50090002C3C0 /* CurrencyVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC29A8929EA50090002C3C0 /* CurrencyVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BEC29A7D29EA4FD90002C3C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEC29A7F29EA4FDB0002C3C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC29A8229EA4FDB0002C3C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEC29A8929EA50090002C3C0 /* CurrencyVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BEC29A7B29EA4FD90002C3C0 /* CurrencyConverterSampleApp.swift */,
 				BEC29A7D29EA4FD90002C3C0 /* ContentView.swift */,
+				BEC29A8929EA50090002C3C0 /* CurrencyVM.swift */,
 				BEC29A7F29EA4FDB0002C3C0 /* Assets.xcassets */,
 				BEC29A8129EA4FDB0002C3C0 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC29A8A29EA50090002C3C0 /* CurrencyVM.swift in Sources */,
 				BEC29A7E29EA4FD90002C3C0 /* ContentView.swift in Sources */,
 				BEC29A7C29EA4FD90002C3C0 /* CurrencyConverterSampleApp.swift in Sources */,
 			);
